@@ -20,4 +20,4 @@ for pop_dict in pop_data:
 wm = pygal_maps_world.maps.World()
 wm.title = 'World Population in 2010, by Country'
 wm.add('2010', cc_populations)
-wm.render_to_file('world_population2.svg')
+wm.render_to_file('world_population4.svg')
